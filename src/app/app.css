@@ -1,0 +1,6 @@
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+.navbar{
+  background-color: red !important;
+}
