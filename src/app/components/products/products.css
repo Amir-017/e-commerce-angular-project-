@@ -1,0 +1,68 @@
+/* Styles specific to products page */
+.products-section {
+  background-color: #f8f9fa;
+}
+
+.prod-card {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease;
+}
+
+.prod-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(13, 110, 253, 0.35);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.14);
+}
+
+.prod-media {
+  position: relative;
+  background: #e9ecef;
+  aspect-ratio: 4 / 3;
+}
+
+.prod-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.prod-stock-badge {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+}
+
+.prod-title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.prod-price {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.prod-id {
+  font-size: 0.8rem;
+}
+
+.prod-desc {
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.6em;
+}
+
+.prod-icon-btn {
+  width: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.05rem;
+  line-height: 1;
+}
